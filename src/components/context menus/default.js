@@ -19,13 +19,13 @@ function DefaultMenu(props) {
                 <span className="ml-5">❗</span> <span className="ml-2">Report bugs</span>
             </a>
             {devider()}
-            <a rel="noreferrer noopener" href="https://www.linkedin.com/in/vivek9patel/" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
+            <a rel="noreferrer noopener" href="https://www.linkedin.com/in/mnitish1/" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
                 <span className="ml-5">🙋‍♂️</span> <span className="ml-2">Follow on <strong>Linkedin</strong></span>
             </a>
-            <a rel="noreferrer noopener" href="https://github.com/vivek9patel" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
+            <a rel="noreferrer noopener" href="https://github.com/unbiased-96" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
                 <span className="ml-5">🤝</span> <span className="ml-2">Follow on <strong>Github</strong></span>
             </a>
-            <a rel="noreferrer noopener" href="mailto:vivek.p9737@gmail.com" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
+            <a rel="noreferrer noopener" href="mailto:mnitishdebu@gmail.com" target="_blank" className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
                 <span className="ml-5">📥</span> <span className="ml-2">Contact Me</span>
             </a>
             {devider()}
