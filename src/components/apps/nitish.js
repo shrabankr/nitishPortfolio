@@ -256,60 +256,24 @@ function Projects() {
             domains: ["Image Processing", "Edge detection", "Affine Transformation"]
         },
 
-        
-        {
-            name: "CPU scheduling application",
-            date: "Dec 2020",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-            description: [
-                "React Native Application to visualize the CPU Scheduling algorithms with different Processes and Animations with gannt chart.",
-            ],
-            domains: ["react-native", "javascript"]
-        },
-        {
-            name: "Meditech Healthcare WebApp",
-            date: "Nov 2020",
-            link: "https://github.com/vivek9patel/Meditech-Healthcare",
-            description: [
-                "Developed Web Application to predict and diagnose diseases from x-ray images.",
-            ],
-            domains: ["javascript", "html5", "sass", "firebase", "tensorflow"]
-        },
-        {
-            name: "Problem Recommendation System",
-            date: "Sep 2020",
-            link: "https://github.com/vivek9patel/Improve-Codeforces",
-            description: [
-                "Django web application to suggest practice problems from the areas in which the user struggles to get pass in code-forces.",
-            ],
-            domains: ["django", "python", "codeforces-api", "javascript"]
-        },
-        {
-            name: "Cleanliness Automation",
-            date: "Dec 2019",
-            link: "https://github.com/vivek9patel/CPU-Scheduling-APP-React-Native",
-            description: [
-                "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
-            ],
-        }
 
         
     ];
 
     const tag_colors = {
-        "javascript": "yellow-300",
-        "firebase": "red-600",
-        "firestore": "red-500",
-        "chrome-extension": "yellow-400",
-        "flutter": "blue-400",
+        "Image Processing": "yellow-300",
+        "Edge detection": "red-600",
+        "Affine Transformation": "red-500",
+        "OpenCV": "yellow-400",
+        "Dlib": "blue-400",
         "dart": "blue-500",
-        "react-native": "purple-500",
-        "html5": "pink-600",
-        "sass": "pink-400",
-        "tensorflow": "yellow-600",
-        "django": "green-600",
-        "python": "green-200",
-        "codeforces-api": "gray-300",
+        "reapyttsx": "purple-500",
+        "Python": "green-200",
+        //"html5": "pink-600",
+        //"sass": "pink-400",
+        //"tensorflow": "yellow-600",
+        //"django": "green-600",        
+        //"codeforces-api": "gray-300",
     }
 
     return (
