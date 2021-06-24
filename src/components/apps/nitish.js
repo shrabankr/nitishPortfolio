@@ -19,7 +19,7 @@ export class AboutVivek extends Component {
             "education": <Education />,
             "skills": <Skills />,
             "projects": <Projects />,
-            "CV": <CV />,
+            "Resume": <Resume />,
         }
 
         let lastVisitedScreen = localStorage.getItem("about-section");
@@ -69,9 +69,9 @@ export class AboutVivek extends Component {
                     <img className=" w-3 md:w-4" alt="vivek' projects" src="./themes/Yaru/status/projects.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
                 </div>
-                <div id="CV" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "CV" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek's CV" src="./themes/Yaru/status/download.svg" />
-                    <span className=" ml-1 md:ml-2 text-gray-50 ">CV</span>
+                <div id="Resume" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "Resume" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
+                    <img className=" w-3 md:w-4" alt="vivek's Resume" src="./themes/Yaru/status/download.svg" />
+                    <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
                 </div>
             </>
         );
@@ -356,8 +356,8 @@ function Projects() {
         </>
     )
 }
-function CV() {
+function Resume() {
     return (
-        <iframe className="h-full w-full" src="./files/Vivek-Patel-Resume.pdf" title="vivek patel CV" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/Nitish-Mahato-Resume.pdf" title="Nitish Mahato Resume" frameBorder="0"></iframe>
     )
 }
