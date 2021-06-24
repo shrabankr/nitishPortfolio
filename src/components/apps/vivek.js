@@ -121,11 +121,15 @@ function About() {
                 <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-0"></div>
             </div>
             <ul className=" leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
-                <li className=" list-pc">I'm a 3<sup>rd</sup> year <span className=" font-medium">computer Science student</span> pursuing my Btech degree from <a href="https://www.pdpu.ac.in/" rel="noreferrer" target="_blank">PDEU, Gandhinagar</a>.</li>
-                <li className=" list-pc">I'm a 3<sup>rd</sup> year <span className=" font-medium">computer Science student</span> pursuing my Btech degree from <a href="https://www.pdpu.ac.in/" rel="noreferrer" target="_blank">PDEU, Gandhinagar</a>.</li>
-                <li className=" mt-3 list-building"> I enjoy building awesome softwares that solve practical problems.</li>
-                <li className=" mt-3 list-time"> When I am not coding my next project, I like to spend my time reading books, playing minecraft or watching <a href="https://www.youtube.com/channel/UCBa659QWEk1AI4Tg--mrJ2A" target="_blank" rel="noreferrer"> tom scott's videos.</a></li>
-                <li className=" mt-3 list-star"> And I also have interest in Deep Learning & Computer Vision!</li>
+                <li className=" list-pc">I am working as a<sup></sup><span className=" font-medium"> Data Scientist</span> in<a href="https://www.ford.com/" rel="noreferrer" target="_blank" className=" font-medium"> Ford Motor Company</a>.</li>
+                <li className=" mt-3 list-pc">Previously worked on<sup></sup><span className=" font-medium"> Face Recognition Using Deep Learning</span> project as an intern in<a href="https://www.coriolis.co.in/" rel="noreferrer" target="_blank" className=" font-medium"> Coriolis Technologies Pvt. Ltd., Pune, India</a>.</li>
+                {/* <li className=" mt-3 list-pc">I have completed <sup></sup><span className=" font-medium">M.Sc. Applications of Mathematics </span>from <a href="https://www.cmi.ac.in/" rel="noreferrer" target="_blank" className=" font-medium">Chennai Mathematical Institute, Chennai</a>.</li> */}
+                {/* <li className=" list-pc">I have completed <sup></sup><span className=" font-medium">B.Sc. Mathematics </span>from <a href="https://www.jkcprl.ac.in/" rel="noreferrer" target="_blank" className=" font-medium">Jagannath Kishore College, Purulia, West Bengal</a>.</li> */}
+               {/* <li className=" list-pc">I'm a 3<sup>rd</sup> year <span className=" font-medium">computer Science student</span> pursuing my Btech degree from <a href="https://www.pdpu.ac.in/" rel="noreferrer" target="_blank">PDEU, Gandhinagar</a>.</li> */}
+                <li className=" mt-3 list-building">Also I enjoy building awesome AI/ML models & love solving  Optimization problems..</li>
+                <li className=" mt-3 list-time">When I am not coding, I like to spend my time reading books,playing cricket or watching TV Series, <a href="https://www.youtube.com/" target="_blank" rel="noreferrer"> YouTube videos.</a></li>
+                {/* <li className=" mt-3 list-star">My areas of expertise are modelling, web applications, deep learning, optimization</li> */}
+                {/* <li className=" mt-3 list-star">I have worked with a wide variety of Data Science projects involving Machine Learning, Deep Learning, Natural Language Processing, Statistical Modeling, Computer Vision, Optimization Techniques, Game Theory etc.</li> */}
             </ul>
         </>
     )
@@ -143,20 +147,30 @@ function Education() {
             <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
                 <li className="list-disc">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-                        Pandit Deendayal Energy University- PDEU
+                        Chennai Mathematical Institute, Chennai
                     </div>
-                    <div className=" text-sm text-gray-400 mt-0.5">2018 - 2022</div>
-                    <div className=" text-sm md:text-base">Computer Science & Engineering</div>
-                    <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 9.07/10</div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2017 - 2019</div>
+                    <div className=" text-sm md:text-base">M.Sc. Applications of Mathematics</div>
+                    {/* <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 9.07/10 </div>  */}
                 </li>
+
                 <li className="list-disc mt-5">
+                    <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+                        Jagannath Kishore College, Purulia, West Bengal
+                    </div>
+                    <div className=" text-sm text-gray-400 mt-0.5">2013 - 2017</div>
+                    <div className=" text-sm md:text-base">B.Sc. Mathematics</div>
+                    {/* <div className="text-sm text-gray-300 font-bold mt-1">CGPA &nbsp; 9.07/10 </div>  */}
+                </li>
+
+                {/*<li className="list-disc mt-5">
                     <div className=" text-lg md:text-xl text-left font-bold leading-tight">
                         Class 12<sup>th</sup> (GSEB)
                     </div>
                     <div className=" text-sm text-gray-400 mt-0.5">2016 - 2018</div>
                     <div className=" text-sm md:text-base">Maths, Physics, Chemistry</div>
                     <div className="text-sm text-gray-300 font-bold mt-1">Percentile Rank &nbsp; 94.1%</div>
-                </li>
+                </li> */}
             </ul>
         </>
     )
@@ -173,10 +187,10 @@ function Skills() {
             </div>
             <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    I've worked with a wide variety of programming languages & frameworks.
+                    I have worked with a wide variety of Data Science projects involving Machine Learning, Deep Learning, Natural Language Processing, Statistical Modeling, Computer Vision, Optimization Techniques, Game Theory etc.
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
-                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">front-end development, React.js & javascript!</strong></div>
+                    <div> My areas of expertise are <strong className="text-ubt-gedit-orange">modelling, web applications, deep learning, optimization!</strong></div>
                 </li>
                 <li className=" list-arrow text-sm md:text-base mt-4 leading-tight tracking-tight">
                     <div>Here are my most frequently used</div>
