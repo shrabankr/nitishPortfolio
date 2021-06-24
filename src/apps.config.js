@@ -6,7 +6,7 @@ import { displaySettings } from './components/apps/settings';
 import { displayChrome } from './components/apps/chrome';
 import { displayTrash } from './components/apps/trash';
 import { displayGedit } from './components/apps/gedit';
-import { displayAboutVivek } from './components/apps/vivek';
+import { displayAboutVivek } from './components/apps/nitish';
 
 const apps = [
     {
@@ -28,8 +28,8 @@ const apps = [
         screen: displayTodoist,
     },
     {
-        id: "about-vivek",
-        title: "About Vivek",
+        id: "about-nitish",
+        title: "About Nitish",
         icon: './themes/Yaru/system/user-home.png',
         disabled: false,
         favourite: true,

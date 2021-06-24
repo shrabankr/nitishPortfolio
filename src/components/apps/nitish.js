@@ -19,7 +19,7 @@ export class AboutVivek extends Component {
             "education": <Education />,
             "skills": <Skills />,
             "projects": <Projects />,
-            "resume": <Resume />,
+            "CV": <CV />,
         }
 
         let lastVisitedScreen = localStorage.getItem("about-section");
@@ -54,7 +54,7 @@ export class AboutVivek extends Component {
         return (
             <>
                 <div id="about" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "about" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="about vivek" src="./themes/Yaru/status/about.svg" />
+                    <img className=" w-3 md:w-4" alt="about nitish" src="./themes/Yaru/status/about.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">About Me</span>
                 </div>
                 <div id="education" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "education" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
@@ -69,9 +69,9 @@ export class AboutVivek extends Component {
                     <img className=" w-3 md:w-4" alt="vivek' projects" src="./themes/Yaru/status/projects.svg" />
                     <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
                 </div>
-                <div id="resume" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "resume" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
-                    <img className=" w-3 md:w-4" alt="vivek's resume" src="./themes/Yaru/status/download.svg" />
-                    <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
+                <div id="CV" tabIndex="0" onFocus={this.changeScreen} className={(this.state.active_screen === "CV" ? " bg-ub-orange bg-opacity-100 hover:bg-opacity-95" : " hover:bg-gray-50 hover:bg-opacity-5 ") + " w-28 md:w-full md:rounded-none rounded-sm cursor-default outline-none py-1.5 focus:outline-none duration-100 my-0.5 flex justify-start items-center pl-2 md:pl-2.5"}>
+                    <img className=" w-3 md:w-4" alt="vivek's CV" src="./themes/Yaru/status/download.svg" />
+                    <span className=" ml-1 md:ml-2 text-gray-50 ">CV</span>
                 </div>
             </>
         );
@@ -238,23 +238,25 @@ function Skills() {
 function Projects() {
     const project_list = [
         {
-            name: "economist.com Unlocked",
-            date: "Mar 2021",
-            link: "https://github.com/vivek9patel/economist.com-unlocked",
+            name: "Face Recognition Using Deep Learning",
+            date: "May - July 2018",
+            link: "https://github.com/unbiased-96",
             description: [
-                "A chrome extension to read Paid Articles for Free & with no Ads, no subscription, no memberships!",
+                "Detect face in the image/video frames. Used Face Recognition python library to get face embeddings, which is a vector of 128 numbers. Calculated euclidean distance between known face embeddings and the detected face embeddings. Shortest distance taken as the best match. Technologies/science exposed to​ :Machine Learning, face recognition with images and CCTV.",
             ],
-            domains: ["javascript", "chrome-extension"]
+            domains: ["Python", "OpenCV", "Dlib", "pyttsx"]
         },
         {
-            name: "Flutter banking app",
-            date: "Jan 2021",
+            name: "Study of applications of Linear Algebra in Photogrammetry",
+            date: "Jan - May 2018",
             link: "https://github.com/vivek9patel/flutter-banking-app",
             description: [
-                "A Flutter & Firebase project for creating transactions between different Users and displaying the history of transactions done by all.",
+                "From 2D information to 3D representation",
             ],
-            domains: ["flutter", "firestore", "dart", "firebase auth"]
+            domains: ["Image Processing", "Edge detection", "Affine Transformation"]
         },
+
+        
         {
             name: "CPU scheduling application",
             date: "Dec 2020",
@@ -290,6 +292,8 @@ function Projects() {
                 "Developed Web Applications to automate Garbage collection and extraction systems for SSIP hackathon",
             ],
         }
+
+        
     ];
 
     const tag_colors = {
@@ -352,8 +356,8 @@ function Projects() {
         </>
     )
 }
-function Resume() {
+function CV() {
     return (
-        <iframe className="h-full w-full" src="./files/Vivek-Patel-Resume.pdf" title="vivek patel resume" frameBorder="0"></iframe>
+        <iframe className="h-full w-full" src="./files/Vivek-Patel-Resume.pdf" title="vivek patel CV" frameBorder="0"></iframe>
     )
 }
