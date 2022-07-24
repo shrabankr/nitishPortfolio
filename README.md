@@ -1,3 +1,6 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/da379f49-a8a7-4c2d-91a6-d70ff3e1e104/deploy-status)](https://app.netlify.com/sites/mnitish/deploys)
+
+
 # To run this on localhost
 
 - Make _.env_ file in root folder
